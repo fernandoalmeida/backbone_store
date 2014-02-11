@@ -3,84 +3,161 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Backbone Store</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <!-- build:css styles/vendor.css -->
-        <!-- bower:css -->
-        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-        <!-- endbower -->
-        <!-- endbuild -->
-        <!-- build:css(.tmp) styles/main.css -->
-        <link rel="stylesheet" href="styles/main.css">
-        <!-- endbuild -->
-    </head>
-    <body>
-        <!--[if lt IE 10]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-
-        <div class="container">
-            <div class="header">
-                <ul class="nav nav-pills pull-right">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Store</a></li>
-                </ul>
-                <h3 class="text-muted">Backbone Store</h3>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Backbone Store</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div class="container">
+      <div class="header">
+        <ul class="nav nav-pills pull-right">
+          <li><a href="#">Home</a></li>
+          <li><a href="#/store">Store</a></li>
+        </ul>
+        <h3 class="text-muted">Backbone Store</h3>
+      </div>
+      <div class="main">
+	<div class="home">
+	  <div class="jumbotron">
+            <h1>Backbone Store</h1>
+            <p class="lead">A simple project for getting start with Backbone.js</p>
+            <p><a class="btn btn-lg btn-success" href="#">Show me the Store!</a></p>
+	  </div>
+	  <div class="row marketing">
+            <div class="col-lg-6">
+              <h4>HTML5 Boilerplate</h4>
+              <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
             </div>
-
-            <div class="jumbotron">
-                <h1>Backbone Store</h1>
-                <p class="lead">A simple project for getting start with Backbone.js</p>
-                <p><a class="btn btn-lg btn-success" href="#">Show me the Store!</a></p>
+            <div class="col-lg-6">
+              <h4>Bootstrap</h4>
+              <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
             </div>
+	  </div>
+	</div>
+	<div class="list">
+	  <div class="row">
+	    <div class="col-md-3">
+	      <a href="#/store/1" class="thumbnail">
+		<img src="http://placehold.it/180x240" alt="...">
+	      </a>
+	    </div>
+	    <div class="col-md-3">
+	      <a href="#/store/2" class="thumbnail">
+		<img src="http://placehold.it/180x240" alt="...">
+	      </a>
+	    </div>
+	    <div class="col-md-3">
+	      <a href="#/store/3" class="thumbnail">
+		<img src="http://placehold.it/180x240" alt="...">
+	      </a>
+	    </div>
+	    <div class="col-md-3">
+	      <a href="#/store/4" class="thumbnail">
+		<img src="http://placehold.it/180x240" alt="...">
+	      </a>
+	    </div>
+	  </div>
+	  <div class="row">
+	    <div class="col-md-3">
+	      <a href="#/store/5" class="thumbnail">
+		<img src="http://placehold.it/180x240" alt="...">
+	      </a>
+	    </div>
+	    <div class="col-md-3">
+	      <a href="#/store/6" class="thumbnail">
+		<img src="http://placehold.it/180x240" alt="...">
+	      </a>
+	    </div>
+	    <div class="col-md-3">
+	      <a href="#/store/7" class="thumbnail">
+		<img src="http://placehold.it/180x240" alt="...">
+	      </a>
+	    </div>
+	    <div class="col-md-3">
+	      <a href="#/store/8" class="thumbnail">
+		<img src="http://placehold.it/180x240" alt="...">
+	      </a>
+	    </div>
+	  </div>
+	</div>
+	<div class="item">
+	  <div class="row">
+	    <div class="col-md-4 thumbnail">
+	      <img src="http://placehold.it/230x300" alt="...">
+	    </div>
+	    <div class="col-md-8">
+	      <div class="col-md-12">
+		<strong>Brand:</strong> <span>Generic</span><br>
+		<strong>Product Code:</strong> <span>14</span><br>
+		<strong>Availability:</strong> <span>Available</span><br>
+	      </div>
+	      <div class="col-md-12">
+		<h2>Price: $99.90</h2>
+	      </div>
+	      <div>
+		<form method="" class="" action="">
+		  <div class="col-md-3">
+		    <input type="text" placeholder="1" class="form-control" id="qt">
+		  </div>
+		  <div class="col-md-3">
+		    <button type="submit" class="btn btn-success">Add to cart</button>		    
+		  </div>
+		</form>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="row">
+	    <div class="col-md-12">
+	      <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>		
+	    </div>
+	  </div>
+	</div>
+      </div>
+      <div class="footer">
+        <p>Developed by <a href="http://fernandoalmeida.net/">Fernando Almeida</a> - source code on <a href="https://github.com/fernandoalmeida/backbone_store/">GitHub</a></p>
+      </div>	
+    </div>
 
-            <div class="row marketing">
-                <div class="col-lg-6">
-                    <h4>HTML5 Boilerplate</h4>
-                    <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
-                </div>
-                <div class="col-lg-6">
-                    <h4>Bootstrap</h4>
-                    <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
-                </div>
-            </div>
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
 
-            <div class="footer">
-                <p>Developed by <a href="http://fernandoalmeida.net/">Fernando Almeida</a> - source code on <a href="https://github.com/fernandoalmeida/backbone_store/">GitHub</a></p>
-            </div>
+    <!-- build:js scripts/plugins.js -->
+    <script src="bower_components/bootstrap/js/affix.js"></script>
+    <script src="bower_components/bootstrap/js/alert.js"></script>
+    <script src="bower_components/bootstrap/js/dropdown.js"></script>
+    <script src="bower_components/bootstrap/js/tooltip.js"></script>
+    <script src="bower_components/bootstrap/js/modal.js"></script>
+    <script src="bower_components/bootstrap/js/transition.js"></script>
+    <script src="bower_components/bootstrap/js/button.js"></script>
+    <script src="bower_components/bootstrap/js/popover.js"></script>
+    <script src="bower_components/bootstrap/js/carousel.js"></script>
+    <script src="bower_components/bootstrap/js/scrollspy.js"></script>
+    <script src="bower_components/bootstrap/js/collapse.js"></script>
+    <script src="bower_components/bootstrap/js/tab.js"></script>
+    <script src="bower_components/underscore/underscore.js"></script>
+    <script src="bower_components/backbone/backbone.js"></script>
+    <!-- endbuild -->
 
-        </div>
-
-
-        <!-- build:js scripts/vendor.js -->
-        <!-- bower:js -->
-        <script src="bower_components/jquery/jquery.js"></script>
-        <!-- endbower -->
-        <!-- endbuild -->
-
-        <!-- build:js scripts/plugins.js -->
-        <script src="bower_components/bootstrap/js/affix.js"></script>
-        <script src="bower_components/bootstrap/js/alert.js"></script>
-        <script src="bower_components/bootstrap/js/dropdown.js"></script>
-        <script src="bower_components/bootstrap/js/tooltip.js"></script>
-        <script src="bower_components/bootstrap/js/modal.js"></script>
-        <script src="bower_components/bootstrap/js/transition.js"></script>
-        <script src="bower_components/bootstrap/js/button.js"></script>
-        <script src="bower_components/bootstrap/js/popover.js"></script>
-        <script src="bower_components/bootstrap/js/carousel.js"></script>
-        <script src="bower_components/bootstrap/js/scrollspy.js"></script>
-        <script src="bower_components/bootstrap/js/collapse.js"></script>
-        <script src="bower_components/bootstrap/js/tab.js"></script>
-        <!-- endbuild -->
-
-        <!-- build:js({app,.tmp}) scripts/main.js -->
-        <script src="scripts/main.js"></script>
-        <!-- endbuild -->
-</body>
+    <!-- build:js({app,.tmp}) scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
 </html>
