@@ -1,8 +1,6 @@
-/* global console, $, Backbone */
+/* global console, $, Backbone, HomeView, ListView, ItemView */
 
 var BackboneStore = Backbone.Router.extend({
-
-  greeting: '',
 
   routes: {
     "": 'home',
@@ -11,22 +9,18 @@ var BackboneStore = Backbone.Router.extend({
   },
 
   home: function(){
-    this.hideAll();
-    $('.home').show();
+    var view = new HomeView();
+    $('.main').html(view.render().el);
   },
 
   list: function() {
-    this.hideAll();
-    $('.list').show();
+    var view = new ListView();
+    $('.main').html(view.render().el);
   },
 
   item: function() {
-    this.hideAll();
-    $('.item').show();
-  },
-
-  hideAll: function() {
-    $('.main > div').hide();
+    var view = new ItemView();
+    $('.main').html(view.render().el);
   }
 
 });
