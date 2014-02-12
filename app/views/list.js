@@ -1,54 +1,57 @@
-/* global Backbone */
+/* global Backbone, Mustache */
 var ListView = Backbone.View.extend({
+
+  template: 
+    '<div class="list">\
+       <div class="row">\
+         {{#items}}\
+         <div class="col-md-3">\
+           <a href="#/store/{{id}}" class="thumbnail">\
+             <img src="{{image}}" alt="{{name}}">\
+           </a>\
+         </div>\
+         {{/items}}\
+      </div>\
+     </div>',
+
+  data: {
+    items: [{
+      id: 1,
+      name: 'Product 1',
+      image: 'http://placehold.it/180x240'
+    },{
+      id: 2,
+      name: 'Product 2',
+      image: 'http://placehold.it/180x240'
+    },{
+      id: 3,
+      name: 'Product 3',
+      image: 'http://placehold.it/180x240'
+    },{
+      id: 4,
+      name: 'Product 4',
+      image: 'http://placehold.it/180x240'
+    },{
+      id: 5,
+      name: 'Product 5',
+      image: 'http://placehold.it/180x240'
+    },{
+      id: 6,
+      name: 'Product 6',
+      image: 'http://placehold.it/180x240'
+    },{
+      id: 7,
+      name: 'Product 7',
+      image: 'http://placehold.it/180x240'
+    },{
+      id: 8,
+      name: 'Product 8',
+      image: 'http://placehold.it/180x240'
+    }]
+  },
+  
   render: function() {
-    var html = '\
-	<div class="list">\
-	  <div class="row">\
-	    <div class="col-md-3">\
-	      <a href="#/store/1" class="thumbnail">\
-		<img src="http://placehold.it/180x240" alt="...">\
-	      </a>\
-	    </div>\
-	    <div class="col-md-3">\
-	      <a href="#/store/2" class="thumbnail">\
-		<img src="http://placehold.it/180x240" alt="...">\
-	      </a>\
-	    </div>\
-	    <div class="col-md-3">\
-	      <a href="#/store/3" class="thumbnail">\
-		<img src="http://placehold.it/180x240" alt="...">\
-	      </a>\
-	    </div>\
-	    <div class="col-md-3">\
-	      <a href="#/store/4" class="thumbnail">\
-		<img src="http://placehold.it/180x240" alt="...">\
-	      </a>\
-	    </div>\
-	  </div>\
-	  <div class="row">\
-	    <div class="col-md-3">\
-	      <a href="#/store/5" class="thumbnail">\
-		<img src="http://placehold.it/180x240" alt="...">\
-	      </a>\
-	    </div>\
-	    <div class="col-md-3">\
-	      <a href="#/store/6" class="thumbnail">\
-		<img src="http://placehold.it/180x240" alt="...">\
-	      </a>\
-	    </div>\
-	    <div class="col-md-3">\
-	      <a href="#/store/7" class="thumbnail">\
-		<img src="http://placehold.it/180x240" alt="...">\
-	      </a>\
-	    </div>\
-	    <div class="col-md-3">\
-	      <a href="#/store/8" class="thumbnail">\
-		<img src="http://placehold.it/180x240" alt="...">\
-	      </a>\
-	    </div>\
-	  </div>\
-	</div>';
-    this.$el.html(html);
+    this.$el.html(Mustache.render(this.template, this.data));
 
     return this;
   }

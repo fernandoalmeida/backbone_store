@@ -1,8 +1,7 @@
-/* global Backbone */
+/* global Backbone, Mustache */
 var HomeView = Backbone.View.extend({
-  render: function(){
-    var html = '\
-	<div class="home">\
+    template: 
+      '<div class="home">\
 	  <div class="jumbotron">\
             <h1>Backbone Store</h1>\
             <p class="lead">A simple project for getting start with Backbone.js</p>\
@@ -18,8 +17,11 @@ var HomeView = Backbone.View.extend({
               <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>\
             </div>\
 	  </div>\
-	</div>';
-    this.$el.html(html);
+	</div>'
+  ,
+
+  render: function(){
+    this.$el.html(Mustache.render(this.template));
 
     return this;
   }
