@@ -18,7 +18,7 @@ var ListView = Backbone.View.extend({
     '<div class="list">\
        <div class="row">\
          {{#models}}\
-         <div class="col-md-3">\
+         <div class="col-md-3 item">\
            <a href="#/store/{{attributes.id}}" class="thumbnail">\
              <img src="{{attributes.image}}" alt="{{attributes.name}}">\
            </a>\

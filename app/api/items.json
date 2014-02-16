@@ -1,43 +1,156 @@
 [
   {
-    "id": 1,
-    "name": "Product 1",
-    "price": 19.90,
-    "image": "http://placehold.it/230x300"
+    "id": 1449328253,
+    "title": "Developing Backbone.js Applications",
+    "publisher": "O'Reilly Media",
+    "date": "May 2013",
+    "pages": 372,
+    "price": 25.68,
+    "image": "/images/products/developing_backbonejs_applications.jpg",
+    "description": "If you want to build your site's frontend with the Single-Page Application (SPA) model, this hands-on book shows you how to get the job done with Backbone.js. You'll learn how to create structured JavaScript applications, using Backbone's own flavor of model-view-controller (MVC) architecture."
   },{
-    "id": 2,
-    "name": "Product 2",
-    "price": 27.50,
-    "image": "http://placehold.it/230x300"
+    "id": 1782162720,
+    "title": "Backbone.js Cookbook",
+    "publisher": "Packt Publishing",
+    "date": "August 2013",
+    "pages": 282,
+    "price": 40.49,
+    "image": "/images/products/backbonejs_cookbook.jpg",
+    "description": "Over 80 recipes for creating outstanding web applications with Backbone.js, leveraging MVC, and REST architecture principles."
   },{
-    "id": 3,
-    "name": "Product 3",
-    "price": 54.70,
-    "image": "http://placehold.it/230x300"
+    "id": 1430263342,
+    "title": "Beginning Backbone.js",
+    "publisher": "Apress",
+    "date": "December 2013",
+    "pages": 304,
+    "price": 42.74,
+    "image": "/images/products/beginning_backbonejs.png",
+    "description": "Beginning Backbone.js is your step-by-step guide to learning and using the Backbone.js library in your web projects. Backbone.js is one of the most popular JavaScript libraries among web developers, used to create modular, single-page web apps. This book takes you from downloading Backbone.js and its dependencies all the way to using more advanced libraries to structure your application architecture, and everything in between."
   },{
-    "id": 4,
-    "name": "Product 4",
-    "price": 75.80,
-    "image": "http://placehold.it/230x300"
+    "id": 1782165665,
+    "title": "Instant Backbone.js Application Development",
+    "publisher": "Packt Publishing",
+    "date": "December 2013",
+    "pages": 64,
+    "price": 20.69,
+    "image": "/images/products/instant_backbonejs_application_development.jpg",
+    "description": "Build your very first Backbone.js application covering all the essentials with this easy-to-follow introductory guide."
   },{
-    "id": 5,
-    "name": "Product 5",
-    "price": 90.00,
-    "image": "http://placehold.it/230x300"
+    "id": 178216524,
+    "title": "Backbone.js Testing",
+    "publisher": "Packt Publishing",
+    "date": "July 2013",
+    "pages": 168,
+    "price": 35.99,
+    "image": "/images/products/backbonejs_testing.jpg",
+    "description": "Plan, architect, and develop tests for Backbone.js applications using modern testing principles and practices."
   },{
-    "id": 6,
-    "name": "Product 6",
-    "price": 105.00,
-    "image": "http://placehold.it/230x300"
+    "id": 1783283572,
+    "title": "Backbone.js Patterns and Best Practices",
+    "publisher": "Packt Publishing",
+    "date": "January 2014",
+    "pages": 174,
+    "price": 35.99,
+    "image": "/images/products/backbonejs_patterns_and_best_practices.jpg",
+    "description": "A one-stop guide to best practices and design patterns when building applications using Backbone.js."
   },{
-    "id": 7,
-    "name": "Product 7",
-    "price": 119.00,
-    "image": "http://placehold.it/230x300"
+    "id": 1783284250,
+    "title": "Getting Started with Backbone Marionette",
+    "publisher": "Packt Publishing",
+    "date": "January 2014",
+    "pages": 94,
+    "price": 26.99,
+    "image": "/images/products/getting_started_with_backbone_marionette.jpg",
+    "description": "Build large-scale JavaScript applications with Backbone Marionette quickly and efficiently."
   },{
-    "id": 8,
-    "name": "Product 8",
-    "price": 129.90,
-    "image": "http://placehold.it/230x300"
+    "id": 1449370985,
+    "title": "Developing Web Applications with Backbone.js",
+    "publisher": "O'Reilly Media",
+    "date": "March 2014",
+    "pages": 100,
+    "price": 17.12,
+    "image": "/images/products/developing_web_applications_with_backbonejs.jpg",
+    "description": "Building great web interfaces requires that developers need to understand both client and server side perspectives. Using BackboneJS for providing frontend components and Ruby on Rails for the backend, this book will teach readers how interactions influence the design of client- and server-side interfaces."
+  },{
+    "id": 1430266732,
+    "title": "Pro Single Page Application Development: Using Backbone.js and ASP.NET",
+    "publisher": "Apress",
+    "date": "July 2014",
+    "pages": 350,
+    "price": 40.45,
+    "image": "/images/products/pro_single_page_application_development_using_backbonejs_and_aspnet.jpg",
+    "description": "One of the most important and exciting trends in web development in recent years is the move towards single page applications, or SPAs. Instead of clicking through hyperlinks and waiting for each page to load, the user loads a site once and all the interactivity is handled fluidly by a rich JavaScript front end. If you come from a background in ASP.NET development, you’ll be used to handling most interactions on the server side. Pro Single Page Application Development will guide you through your transition to this powerful new application type."
+  },{
+    "id": "B00HRME7NA",
+    "title": "Anatomy of a web application using node.js, ExpressJS, MongoDB & Backbone.js",
+    "publisher": "Amazon",
+    "date": "January 2014",
+    "pages": 42,
+    "price": 1.99,
+    "image": "/images/products/anatomy_of_a_web_application_nodejs_expressjs_mongodb_backbonejs.jpg",
+    "description": "A boilerplate project for a complete web application written using Backbone.js & Marionette, node.js & ExpressJS, MongoDB & Mongoose, Handlebars, Grunt.js, Bower, and Browserify! Lets dissect a super basic single page application (SPA) that is a simple Contacts manager. While the app is pretty simple, there's actually a lot that's involved. My goal with this book is to cover the entire stack of the application including; back-end, data, front-end, tools and testing."
+  },{
+    "id": "B00CBP7N3O",
+    "title": "Developing A Backbonejs Edge",
+    "publisher": "Bleeding Edge Press",
+    "date": "April 2013",
+    "pages": 111,
+    "price": 16.52,
+    "image": "/images/products/developing_a_backbonejs_edge.jpg",
+    "description": "This book incorporates best practices and the techniques from the combined authors' experience of developing many Backbone applications. Some of the resources on the web advocate inefficient or inelegant solutions and there are few that cover the whole library. In this book we aim to provide a complete guide to Backbone and equip you to start using the library straight away."
+  },{
+    "id": 1449368123,
+    "title": "Applied JavaScript MVC: Developing Complex Applications with Backbone.js",
+    "publisher": "O'Reilly Media",
+    "date": "April 2014",
+    "pages": 250,
+    "price": 19.24,
+    "image": "/images/products/applied_javascript_mvc_developing_complex_applications_with_backbonejs.jpg",
+    "description": "While most available resources on the subject of JavaScript web applications focus on the core functionality of a particular MV* framework, this book references multiple frameworks and addresses real-world issues that arise when developing larger-scale applications (applications more complex than the TodoMVC examples that serve as the basis for many tutorials and texts)."
+  },{
+    "id": 1449337392,
+    "title": "Building Node Applications with MongoDB and Backbone",
+    "publisher": "O'Reilly Media",
+    "date": "December 2012",
+    "pages": 204,
+    "price": 11.42,
+    "image": "/images/products/building_node_applications_with_mongodb_and_backbone.jpg",
+    "description": "If you're an experienced web developer unfamiliar with JavaScript, the book's first section introduces you to the project's core technologies: Node.js, Backbone.js, and the MongoDb data store. You'll then launch into the project a highly responsive, highly scalable application guided by clear explanations and lots of code examples."
+  },{
+    "id": 1937785270,
+    "title": "Async JavaScript: Build More Responsive Apps with Less Code",
+    "publisher": "Pragmatic Bookshelf",
+    "date": "December 2012",
+    "pages": 104,
+    "price": 15.30,
+    "image": "/images/products/async_javascript_build_more_responsive_apps_with_less_code.jpg",
+    "description": "With the advent of HTML5, front-end MVC, and Node.js, JavaScript is ubiquitous--and still messy. This book will give you a solid foundation for managing async tasks without losing your sanity in a tangle of callbacks. It's a fast-paced guide to the most essential techniques for dealing with async behavior, including PubSub, evented models, and Promises. With these tricks up your sleeve, you'll be better prepared to manage the complexity of large web apps and deliver responsive code.  The concepts in the book are illustrated with runnable examples drawn from both the browser and the Node.js server framework, incorporating complementary libraries including jQuery, Backbone.js, and Async.js. You'll learn how to create dynamic web pages and highly concurrent servers by mastering the art of distributing events to where they need to be handled, rather than nesting callbacks within callbacks within callbacks."
+  },{
+    "id": "B00GM78QDS",
+    "title": "Rapid Prototyping with JS: Agile JavaScript Development: Start learning Backbone.js, Node.js and MongoDB",
+    "publisher": "LeanPub",
+    "date": "January 2014",
+    "pages": 270,
+    "price": 9.57,
+    "image": "/images/products/rapid_prototyping_with_js_agile_javascript_development_start_learning_backbonejs_nodejs_mongodb.jpg",
+    "description": "Rapid Prototyping with JS: Agile JavaScript Development is a hands-on book which introduces you to agile JavaScript web and mobile software development using the latest cutting-edge front-end and back-end technologies including: Node.js, Backbone.js, MongoDB and others."
+  },{
+    "id": "B00B5THNI2",
+    "title": "MVC Applies to JavaScript",
+    "publisher": "Developer.Press",
+    "date": "November 2013",
+    "pages": 33,
+    "price": 3.26,
+    "image": "/images/products/mvc_applies_to_javascript.png",
+    "description": "The MVC pattern is a common pattern used in development and it can also apply to JavaScript development. This book presents a pragmatic approach on how you can develop a full application using this pattern. Real code is possibly the best way to explain the advantages of using a design pattern and this book shows a comparison of the code needed to build a sample application adopting and not adopting MVC. Backbone.js, one of the most popular MVC/MV* frameworks, it is also brought as term of comparison. The sample application mentioned previously is built using Backbone.js to show how the use of a framework can help and speed up your development process."
+  },{
+    "id": 1782169067,
+    "title": "Instant Dependency Management with RequireJS How-to",
+    "publisher": "Packt Publishing",
+    "date": "May 2013",
+    "pages": 42,
+    "price": 22.49,
+    "image": "/images/products/instant_dependency_management_with_requirejs_howto.jpg",
+    "description": "Optimize the performance and maintainability of your web applications with RequireJS with this book and ebook. Asynchronous Module Definition (AMD) script loaders are fast becoming one of the most popular tools for improving the performance and maintainability of front-end web applications. RequireJS stands out as the most popular AMD script loader, and comes packed with amazing features."
   }
 ]

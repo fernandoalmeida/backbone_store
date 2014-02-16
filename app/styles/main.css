@@ -63,6 +63,16 @@ body {
     margin-top: 28px;
 }
 
+.list .item img {
+    width: 180px;
+    height: 190px;
+}
+
+.details img {
+    width: 240px;
+    height: 280px;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
     .container {
