@@ -1,5 +1,4 @@
-/* global console, $, Backbone, HomeView, ListView, ItemView, ItemModel */
-
+/* global console, $, Backbone, HomeView, ListView, ItemView, ItemModel, ItemsCollection */
 var BackboneStore = Backbone.Router.extend({
 
   initialize: function() {
