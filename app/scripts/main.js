@@ -1,4 +1,4 @@
-/* global console, $, Backbone, HomeView, ListView, ItemView, ItemModel, ItemsCollection */
+/* global console, $, Backbone, HomeView, ListView, ItemView, ItemModel, ItemsCollection, _ */
 var BackboneStore = Backbone.Router.extend({
 
   initialize: function() {
@@ -28,11 +28,13 @@ var BackboneStore = Backbone.Router.extend({
   },
 
   item: function(id) {
-    this.itemModel.set({
-      id: id,
-      price: (id * 100).toFixed(2)
-    });
-
+    var self = this;
+    var item = this.listView.collection.at(id - 1);
+    if (item != undefined) {
+      _.each(item.attributes, function(val, key){
+	self.itemModel.set(key, val);
+      });
+    }
     $('.main').html(this.itemView.render().el);
   }
 

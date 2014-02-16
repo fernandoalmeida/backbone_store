@@ -1,5 +1,14 @@
 /* global Backbone */
 var ItemModel = Backbone.Model.extend({
+
+  initialize: function() {
+    try {
+      this.set("formatPrice", "$ " + this.attributes.price.toFixed(2));
+    } catch(err) {
+      this.set("formatPrice", "unavailable");
+    }
+  },
+
   defaults: {
     brand: "Generic",
     availability: "Available",

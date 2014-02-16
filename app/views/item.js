@@ -20,7 +20,7 @@ var ItemView = Backbone.View.extend({
 		<strong>Availability:</strong> <span>{{availability}}</span><br>\
 	      </div>\
 	      <div class="col-md-12">\
-		<h2>Price: ${{price}}</h2>\
+		<h2>Price: {{formatPrice}}</h2>\
 	      </div>\
 	      <div>\
 		<form method="" class="" action="">\
