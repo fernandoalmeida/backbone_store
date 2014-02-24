@@ -28,11 +28,7 @@ var BackboneStore = Backbone.Router.extend({
   },
 
   item: function(id) {
-    var self = this;
-    var found = this.listView.collection.find(function(i){ return i.get("id") == id });
-    if (found) {
-      this.itemView.model = found;
-    }
+    this.itemView.model = this.listView.collection.get(id) || this.itemModel;
     $('.main').html(this.itemView.render().el);
   }
 
