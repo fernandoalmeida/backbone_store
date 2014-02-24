@@ -16,6 +16,18 @@ var ListView = Backbone.View.extend({
 
   template: 
     '<div class="list">\
+       <div class="panel panel-default">\
+         <div class="panel-body">\
+           <form role="form">\
+             <div class="col-md-3">\
+               <div class="form-group">\
+                 <label for="order_by">Order by</label>\
+                 <select class="form-control" name="order_by" id="order_by"><option value="date">Date</option></select>\
+               </div>\
+             </div>\
+           </form>\
+         </div>\
+       </div>\
        <div class="row">\
          {{#models}}\
          <div class="col-md-3 item">\
