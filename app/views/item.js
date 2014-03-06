@@ -25,10 +25,7 @@ var ItemView = Backbone.View.extend({
 		<h2>Price: {{formatPrice}}</h2>\
 	      </div>\
 	      <div>\
-		<form method="" class="" action="">\
-		  <div class="col-md-3">\
-		    <input type="text" placeholder="1" class="form-control" id="qt">\
-		  </div>\
+		<form method="GET" action="#cart/{{id}}/add">\
 		  <div class="col-md-3">\
 		    <button type="submit" class="btn btn-success">Add to cart</button>\
 		  </div>\

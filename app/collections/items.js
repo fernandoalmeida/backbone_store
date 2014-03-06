@@ -8,5 +8,5 @@ var ItemsCollection = Backbone.Collection.extend({
     }
   },
   model: ItemModel,
-  url: '/api/items.json'
+  url: 'api/items.json'
 });

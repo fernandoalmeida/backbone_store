@@ -73,6 +73,16 @@ body {
     height: 280px;
 }
 
+.cart .item img {
+    width: 60px;
+    height: 80px;
+}
+
+.cart .item .price {
+    width: 90px;
+    text-align: right;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
     .container {
